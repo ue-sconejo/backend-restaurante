@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import Empleados
+from .models import Clientes
 
-class EmpleadosSerializer(serializers.ModelSerializer):
+class ClientesSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Empleados
+        model = Clientes
         fields = '__all__'

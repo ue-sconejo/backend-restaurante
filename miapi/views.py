@@ -1,9 +1,7 @@
-from django.shortcuts import render
-
 from rest_framework import viewsets
-from .models import Empleados 
-from .serializers import EmpleadosSerializer
+from .models import Clientes
+from .serializers import ClientesSerializer
 
-class EmpleadoViewSet(viewsets.ModelViewSet): 
-    queryset = Empleados.objects.all() 
-    serializer_class = EmpleadosSerializer 
+class ClientesViewSet(viewsets.ModelViewSet):
+    queryset = Clientes.objects.all()
+    serializer_class = ClientesSerializer
