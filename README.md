@@ -11,6 +11,7 @@ Este es el repositorio del backend para la gestion de reservas de un restaurante
 
 ## Instalación
 
+python -m venv env-back
 pip install django==4.1.13 mysqlclient djangorestframework
 
 ## Ejecucion
